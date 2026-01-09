@@ -1,0 +1,47 @@
+body { font-family: Arial, sans-serif; background: #fff8fc; padding: 20px; margin: 0; }
+
+/* Bloque “Publícate aquí” */
+.publicate-aqui { background: #fff0f5; border: 2px dashed #d17b88; border-radius: 10px; padding: 20px; margin: 20px auto; max-width: 500px; text-align: center; }
+.publicate-aqui h2 { color: #d17b88; margin-bottom: 10px; }
+.publicate-aqui p { color: #444; margin-bottom: 15px; }
+.btn-publicidad { background: #d17b88; color: #fff; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+.btn-publicidad:hover { background: #b85f70; }
+
+/* Título */
+.titulo { text-align: center; font-size: 2em; color: #d17b88; margin: 20px 0; }
+
+/* Producto compacto */
+.producto { display: flex; align-items: flex-start; gap: 10px; padding: 10px; margin: 10px 0; background: #ffe4ec; border-radius: 8px; border: 1px solid #ccc; }
+.producto img { width: 60px; height: 60px; object-fit: cover; border-radius: 8px; }
+
+.info h2 { margin: 0; font-size: 1.2em; color: #d17b88; }
+.info p { margin: 5px 0; color: #333; }
+
+select, button { margin-top: 5px; padding: 5px; font-size: 1em; }
+
+/* Total y acciones */
+#total { margin-top: 20px; background: #fff0f5; padding: 15px; border-radius: 8px; border: 1px solid #d17b88; }
+#acciones { margin-top: 10px; text-align: center; }
+#acciones button { background: #d17b88; color: #fff; border: none; padding: 10px 15px; margin: 5px; border-radius: 6px; cursor: pointer; }
+#acciones button:hover { background: #b85f70; }
+.encabezado {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 1.5em;
+  color: #d17b88;
+  margin-bottom: 15px;
+}
+
