@@ -25,6 +25,26 @@ function aplicarPromociones(producto) {
 const catalogoDiv = document.getElementById("catalogo");
 
 // Mostrar productos con botón "Agregar" y selector de cantidad (1–10)
+// 1. Lista de productos
+const productos = [
+  { nombre: "Tostitos", precio: 60, imagen: "..." },
+  { nombre: "Durito sen.", precio: 15, imagen: "..." },
+  // etc...
+];
+
+// 2. Carrito y total
+let carrito = [];
+let total = 0;
+
+// 3. Función de promociones
+function aplicarPromociones(producto) {
+  return producto.precio; // sin promociones por ahora
+}
+
+// 4. Referencia al div del catálogo
+const catalogoDiv = document.getElementById("catalogo");
+
+// 5. Aquí va tu bloque para mostrar productos
 productos.forEach((p, index) => {
   const precioFinal = aplicarPromociones(p);
   catalogoDiv.innerHTML += `
@@ -42,7 +62,6 @@ productos.forEach((p, index) => {
     </div>
   `;
 });
-
 
 
 // Función para agregar al carrito con cantidad
@@ -102,3 +121,4 @@ function renderCarrito() {
   document.getElementById("total").innerHTML = lista;
 
 }
+
