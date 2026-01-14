@@ -22,7 +22,10 @@ function aplicarPromociones(producto) {
   return producto.precio; // sin promociones por ahora
 }
 
-const catalogoDiv = document.getElementById("catalogo");
+document.addEventListener("DOMContentLoaded", () => {
+  // todo tu código aquí
+});
+
 
 // Mostrar productos con botón "Agregar" y selector de cantidad (1–10)
 // 1. Lista de productos
@@ -121,4 +124,5 @@ function renderCarrito() {
   document.getElementById("total").innerHTML = lista;
 
 }
+
 
