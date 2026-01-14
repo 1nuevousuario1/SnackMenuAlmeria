@@ -82,7 +82,7 @@ function finalizarPedido() {
   mensaje += `\nTotal: $${total}`;
 
   // Tu número de WhatsApp en formato internacional
-  let numero = "528111257497"; 
+  let numero = "528111248290"; 
   let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 
   // Abrir WhatsApp (web o app)
@@ -100,4 +100,5 @@ function renderCarrito() {
   });
   lista += "</ul>";
   document.getElementById("total").innerHTML = lista;
+
 }
