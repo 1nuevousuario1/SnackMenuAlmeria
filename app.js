@@ -88,5 +88,10 @@ document.addEventListener("DOMContentLoaded", () => {
     lista += "</ul>";
     document.getElementById("total").innerHTML = lista;
   }
-});
 
+  // 🔑 Exponer funciones al scope global
+  window.agregarAlCarrito = agregarAlCarrito;
+  window.eliminarDelCarrito = eliminarDelCarrito;
+  window.vaciarCarrito = vaciarCarrito;
+  window.finalizarPedido = finalizarPedido;
+});
